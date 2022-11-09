@@ -1,8 +1,18 @@
-//
-//  File.swift
-//  
-//
-//  Created by Ji-hoon Ahn on 2022/11/09.
-//
+import Plot
+import Publish
 
-import Foundation
+extension Node where Context == HTML.BodyContext {
+    static func homePage(for items: [Item<Portfolio>],on site: Portfolio) -> Node {
+        return .main(
+            .id("site-main"),
+            .class("site-main outer"),
+            .div(
+                .class("inner"),
+                .div(
+                    .class("post-feed")
+                    
+                )
+            )
+        )
+    }
+}

@@ -8,8 +8,8 @@ try Portfolio().publish(using: [
     .addMarkdownFiles(),
     .copyResources(),
     .generateHTML(withTheme: .portfolio),
-    .generateRSSFeed(including: [.services]),
-//    .move404FileForBlog(),
+    .generateRSSFeed(including: [.projects]),
+    .move404FileForBlog(),
     .generateSiteMap(),
     .deploy(using: .gitHub("JiHoonAHN/Portfolio"))
 ])
