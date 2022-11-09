@@ -14,17 +14,11 @@ extension Node where Context == HTML.BodyContext {
                     .class("portfolio-head-brand"),
                     .a(
                         .class("portfolio-head-logo"),
-                        .img(.src("/images/Logo/logo.svg")),
+                        .img(.src("/images/logo/logo.svg")),
                         .href("/")
                     ),
                     .div(
                         .class("portfolio-head-brand-wrapper"),
-                        .button(
-                            .class("portfolio-search"),
-                            .i(
-                                .class("fa-solid fa-magnifying-glass")
-                            )
-                        ),
                         .button(
                             .class("portfolio-menu"),
                             .i(
@@ -59,15 +53,6 @@ extension Node where Context == HTML.BodyContext {
                                 .text("Blog"),
                                 .href("https://blog.jihoon.me")
                             )
-                        )
-                    )
-                ),
-                .div(
-                    .class("portfolio-head-actions"),
-                    .button(
-                        .class("portfolio-search"),
-                        .i(
-                            .class("fa-solid fa-magnifying-glass")
                         )
                     )
                 )

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.blog-menu').click(function () {
-        $('.home-template').toggleClass('blog-head-open');
+    $('.portfolio-menu').click(function () {
+        $('.home-template').toggleClass('portfolio-head-open');
     });
 });

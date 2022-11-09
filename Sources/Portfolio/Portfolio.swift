@@ -31,4 +31,5 @@ struct Portfolio: Website {
     var description = "A description of Portfolio"
     var language: Language { .english }
     var imagePath: Path? { nil }
+    var socialMediaLinks: [SocialMediaLink] { [.github,.email] }
 }

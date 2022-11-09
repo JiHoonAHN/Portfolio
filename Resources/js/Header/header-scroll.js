@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $(window).on('scroll', function() {
         if ($(window).scrollTop()) {
-            $("#blog-head").addClass('header-bc');
+            $("#portfolio-head").addClass('header-bc');
         }else{
-            $("#blog-head").removeClass('header-bc');
+            $("#portfolio-head").removeClass('header-bc');
         }
     });
 });

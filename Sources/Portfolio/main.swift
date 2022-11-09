@@ -11,5 +11,5 @@ try Portfolio().publish(using: [
     .generateRSSFeed(including: [.services]),
 //    .move404FileForBlog(),
     .generateSiteMap(),
-    .deploy(using: .gitHub("JiHoonAHN/Blog"))
+    .deploy(using: .gitHub("JiHoonAHN/Portfolio"))
 ])
