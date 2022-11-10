@@ -2,7 +2,7 @@ import Publish
 import Plot
 
 extension Node where Context == HTML.BodyContext {
-    private static var sections: [Portfolio.SectionID] { [.projects, .services, .opensources] }
+    private static var sections: [Portfolio.SectionID] { [.projects, .contact] }
     
     static func header(for site: Portfolio) -> Node {
         return .header(

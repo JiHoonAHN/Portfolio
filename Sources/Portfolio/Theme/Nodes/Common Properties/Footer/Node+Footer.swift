@@ -2,7 +2,7 @@ import Plot
 
 extension Node where Context == HTML.BodyContext {
     
-    private static var sections: [Portfolio.SectionID] { [.projects, .services, .opensources, .contact] }
+    private static var sections: [Portfolio.SectionID] { [.projects, .contact] }
     
     static func footer(for site: Portfolio) -> Node {
         return .footer(

@@ -8,7 +8,7 @@ try Portfolio().publish(using: [
     .addMarkdownFiles(),
     .copyResources(),
     .generateHTML(withTheme: .portfolio),
-    .generateRSSFeed(including: [.projects]),
+    .generateRSSFeed(including: [.intro]),
     .move404FileForBlog(),
     .generateSiteMap(),
     .deploy(using: .gitHub("JiHoonAHN/Portfolio"))

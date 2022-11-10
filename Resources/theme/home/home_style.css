@@ -1,0 +1,13 @@
+.site-main {
+    padding-top: 90px;
+    z-index: 100;
+    flex-grow: 1;
+}
+
+.post-feed {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    padding: 40px 0 0 0;
+}

@@ -6,16 +6,14 @@ import Plot
 struct Portfolio: Website {
     enum SectionID: String, WebsiteSectionID {
         // Add the sections that you want your website to contain here:
+        case intro
         case projects
-        case services
-        case opensources
         case contact
         
         var name: String {
             switch self {
+            case .intro: return "Introduce"
             case .projects: return "Projects"
-            case .services: return "Services"
-            case .opensources: return "OpenSources"
             case .contact: return "Contact"
             }
         }
