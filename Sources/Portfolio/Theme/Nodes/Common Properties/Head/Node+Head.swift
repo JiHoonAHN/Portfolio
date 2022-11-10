@@ -11,7 +11,8 @@ extension Node where Context == HTML.DocumentContext {
             .icon_Link(),
             .font_Link(),
             .css_Links(),
-            .script_Links()
+            .script_Links(),
+            .seo(for: site)
         )
     }
 }
