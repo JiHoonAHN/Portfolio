@@ -65,6 +65,7 @@ struct PortfolioHTMLFactory: HTMLFactory {
             .body(
                 .grid(
                     .header(for: context.site),
+                    .defaultPage(for: context.site),
                     .footer(for: context.site)
                 )
             )
@@ -78,6 +79,7 @@ struct PortfolioHTMLFactory: HTMLFactory {
             .body(
                 .grid(
                     .header(for: context.site),
+                    .defaultPage(for: context.site),
                     .footer(for: context.site)
                 )
             )
